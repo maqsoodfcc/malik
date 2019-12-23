@@ -1,0 +1,28 @@
+.parentDiv {
+  display: flex;
+  /* flex-wrap: wrap; */
+  /* flex-wrap: nowrap; */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+
+.blocks {
+  /* flex-grow: 1; */
+  /* display: flex; */
+  /* justify-content: center;
+  align-items: center; */
+  height: 200px;
+  width: 200px;
+  background-color: brown;
+  border: 2px solid yellow;
+  color: white;
+}
+/* .blocks:nth-child(2) {
+  flex: 2 2;
+} */
+body {
+  margin: 0px;
+  padding: 0px;
+}
